@@ -16,6 +16,7 @@ public class ProducerConsumerDemo {
 	 * （wait、notify 和 notifyAll）分解成截然不同的对象，该对象可以通过lock锁进行获取
 	 * 该示例中，实现了只唤醒对方操作。
 	 * 用finally释放锁（一定要执行）
+	 * 
 	 */
 	public static void main(String[] args) {
 
