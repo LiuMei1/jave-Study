@@ -22,6 +22,13 @@ public class StopThreadDemo {
 		 *   强制让线程恢复到运行状态中来。这样就可以操作标记让线程结束。
 		 *   
 		 * Thread类提供该方法interrupt（）；
+		 * 
+		 * 守护线程（如何确定守护线程守护谁？）
+		 * setDaemon(true)  设置守护线程
+		 * isDaemon   
+		 * 1.启动前设置
+		 * 2.用户线程结束就马上结束
+		 * 
 		 *   
 		 */
 		
